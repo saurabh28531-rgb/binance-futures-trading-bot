@@ -1,0 +1,31 @@
+2026-06-08 14:17:11 | INFO     | bot.cache | [-] | Fetching exchange info from Binance— startup
+2026-06-08 14:17:12 | INFO     | bot.cache | [-] | Exchange cache ready — 566 active perpetual symbols loaded
+2026-06-08 14:17:39 | INFO     | bot.orders | [1bf4e425] | Placing MARKET BUY order | symbol=BTCUSDT qty=0.001
+2026-06-08 14:17:39 | DEBUG    | bot.client | [1bf4e425] | POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-06-08 14:17:40 | DEBUG    | bot.client | [1bf4e425] | POST /fapi/v1/order → HTTP 400
+2026-06-08 14:17:40 | ERROR    | bot.client | [1bf4e425] | Binance API error -1022: Signature for this request is not valid.
+2026-06-08 14:17:40 | ERROR    | bot.orders | [1bf4e425] | Order rejected by Binance | code=-1022 | Invalid signature. Check your API secret key.
+2026-06-08 14:19:50 | INFO     | bot.cache | [-] | Fetching exchange info from Binance— startup
+2026-06-08 14:19:51 | INFO     | bot.cache | [-] | Exchange cache ready — 566 active perpetual symbols loaded
+2026-06-08 14:19:56 | INFO     | bot.orders | [4ce78753] | Placing MARKET BUY order | symbol=BTCUSDT qty=0.001
+2026-06-08 14:19:56 | DEBUG    | bot.client | [4ce78753] | POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-06-08 14:19:56 | DEBUG    | bot.client | [4ce78753] | POST /fapi/v1/order → HTTP 200
+2026-06-08 14:19:56 | DEBUG    | bot.client | [4ce78753] | Response received successfully
+2026-06-08 14:19:56 | INFO     | bot.orders | [4ce78753] | Order confirmed | orderId=14487640266 | status=NEW | executedQty=0.0
+2026-06-08 14:24:16 | INFO     | bot.cache | [-] | Fetching exchange info from Binance— startup
+2026-06-08 14:24:16 | INFO     | bot.cache | [-] | Exchange cache ready — 566 active perpetual symbols loaded
+2026-06-08 14:24:24 | INFO     | bot.orders | [938d0b6d] | Placing LIMIT SELL order | symbol=BTCUSDT qty=0.001 price=150000.0
+2026-06-08 14:24:24 | DEBUG    | bot.client | [938d0b6d] | POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 150000.0, 'timeInForce': 'GTC'}
+2026-06-08 14:24:24 | DEBUG    | bot.client | [938d0b6d] | POST /fapi/v1/order → HTTP 200
+2026-06-08 14:24:24 | DEBUG    | bot.client | [938d0b6d] | Response received successfully
+2026-06-08 14:24:24 | INFO     | bot.orders | [938d0b6d] | Order confirmed | orderId=14487885528 | status=NEW | executedQty=0.0
+2026-06-08 14:25:38 | INFO     | bot.cache | [-] | Fetching exchange info from Binance— startup
+2026-06-08 14:25:39 | INFO     | bot.cache | [-] | Exchange cache ready — 566 active perpetual symbols loaded
+2026-06-08 14:27:08 | INFO     | bot.cache | [-] | Fetching exchange info from Binance— startup
+2026-06-08 14:27:09 | INFO     | bot.cache | [-] | Exchange cache ready — 566 active perpetual symbols loaded
+2026-06-08 14:28:58 | INFO     | bot.cache | [-] | Fetching exchange info from Binance— startup
+2026-06-08 14:28:58 | INFO     | bot.cache | [-] | Exchange cache ready — 566 active perpetual symbols loaded
+2026-06-08 14:29:21 | INFO     | bot.cache | [-] | Fetching exchange info from Binance— startup
+2026-06-08 14:29:22 | INFO     | bot.cache | [-] | Exchange cache ready — 566 active perpetual symbols loaded
+2026-06-08 14:30:55 | INFO     | bot.cache | [-] | Fetching exchange info from Binance— startup
+2026-06-08 14:30:56 | INFO     | bot.cache | [-] | Exchange cache ready — 566 active perpetual symbols loaded

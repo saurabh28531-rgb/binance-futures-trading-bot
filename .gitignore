@@ -6,9 +6,9 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# Logs
-logs/
-*.log
+# Keep logs folder ignored except sample log files submitted as deliverables
+logs/*
+!logs/.gitkeep
 
 # Virtual environment
 venv/
